@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Number_of_prime_and_while {
 
-    // تابع بررسی عدد اول
+    
     static boolean isPrime(int x) {
         if (x < 2)
             return false;
@@ -14,7 +14,7 @@ public class Number_of_prime_and_while {
         return true;
     }
 
-    // تابع بررسی عدد کامل
+    
     static boolean isPerfect(int x) {
         int sum = 0;
 
@@ -33,10 +33,10 @@ public class Number_of_prime_and_while {
         int primeCount = 0;
         int perfectCount = 0;
 
-        // تعداد اعداد
+        
         n = sc.nextInt();
 
-        // دریافت اعداد
+        
         for (int i = 0; i < n; i++) {
             x = sc.nextInt();
 
@@ -47,7 +47,7 @@ public class Number_of_prime_and_while {
                 perfectCount++;
         }
 
-        // خروجی
+        
         System.out.println("Prime count = " + primeCount);
         System.out.println("Perfect count = " + perfectCount);
 
